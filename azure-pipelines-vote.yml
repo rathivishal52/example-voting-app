@@ -11,7 +11,7 @@ resources:
 - repo: self
 
 pool:
-  name: 'vboxuser'
+  name: 'local agent pool'
 
 variables:
   tag: '$(Build.BuildId)'
