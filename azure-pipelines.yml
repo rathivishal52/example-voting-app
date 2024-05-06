@@ -20,7 +20,7 @@ stages:
 - stage: BuildAndPush
   displayName: Build image
   jobs:
-  - job: Build and push
+  - job: BuildAndPush
     displayName: Build
     steps:
     - task: Docker@2
